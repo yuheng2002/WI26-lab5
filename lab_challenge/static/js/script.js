@@ -43,5 +43,5 @@ document.getElementById('api-form').addEventListener('submit', async function(ev
     document.getElementById('result-color').textContent = data.favorite_color;
     document.getElementById('result-feedback').textContent = data.feedback;
 
-
+    document.getElementById('api-result').style.display = 'block';
 });
