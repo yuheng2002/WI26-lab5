@@ -39,7 +39,7 @@ async def show_form(request: Request):
 async def handle_form_ssr(
     request: Request,
     name: str = Form(...),
-    favorite_color: str = Form(...).
+    favorite_color: str = Form(...),
     feedback: str = Form(...)
 ):
     """
