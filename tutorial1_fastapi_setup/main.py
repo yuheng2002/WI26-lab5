@@ -26,7 +26,7 @@ async def home(request: Request):
     return templates.TemplateResponse(
         request,
         "index.html",
-        {"page_title": "Welcome", "message": "Hello from FastAPI!"}
+        {"page_title": "Welcome", "message": "Hello from FastAPI!!"}
     )
 
 
